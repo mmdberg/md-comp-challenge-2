@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: auto;
+}
+
+body  {
+  background-color: #EFEFEF;
+}
+
+header {
+  background-color: #555555;;
+  color: #FFFFFF;
+  height: 150px;
+  position: relative;
+}
+
+aside {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+menu {
+  list-style-type: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-left: 0;
+}
+
+li {
+  display: inline;
+}
+
+.PG-logo {
+  background-color: #FFFFFF;
+  height: 3em;
+  width: 3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+}
+
+h2  {
+  font-size: 2em;
+  margin: 20px 1%;
+}
+
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+/*  border: 1px black solid;*/
+  width: 23%;
+  height: 350px;
+  margin: 1%;
+  box-shadow: 2px 2px 5px grey;
+  background-color: #FFFFFF;
+}
+
+.article-header {
+  height: 8em;
+  color: #FFFFFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.arrow-logo {
+  height: 2em;
+  width: 2em;
+}
+
+.views {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+}
+
+.article-footer {
+  margin: 10px;
+  color: #555555;
+}
+
+.link-box {
+  background-color: #EFEFEF;
+  margin: 10px;
+  font-size: .7em;
+  word-wrap: break-word;
+  padding: 10px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.freestyle-skiing {
+  background-image: url(Images/Moguls.jpeg);
+}
+
+.curling {
+  background-image: url(Images/curling.jpg);
+}
+
+.figure-skating {
+  background-image: url(Images/figure-skating.jpg)
+}
+
+.hockey {
+  background-image: url(Images/hockey.jpg)
+}
+
+.luge {
+  background-image: url(Images/luge.jpg);
+}
+
+.card-name {
+  font-size: 1em;
+}
+
+.card-date {
+  font-size: .5em;
+  color: #BCBDBF;
+}
+
+.reigning-champ {
+  text-transform: uppercase;
+  font-size: .8em;
+}
+
+.country {
+  font-size: 1em;
+  margin-bottom: 12px;
+}
+
+.events {
+  text-transform: uppercase;
+  font-size: .5em;
+}
+
+.event-number {
+  font-size: 2em;
+  color: #6FC2F8;
+}
