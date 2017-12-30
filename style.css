@@ -9,7 +9,7 @@ body  {
 }
 
 header {
-  background-color: #555555;;
+  background-color: #2B2B2B;
   color: #FFFFFF;
   height: 150px;
   position: relative;
@@ -17,35 +17,56 @@ header {
 
 aside {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 5px;
+  right: 5px;
+  color: #206EE8;
 }
 
 menu {
   list-style-type: none;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 20px;
   padding-left: 0;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #7D7D7D;
 }
 
 li {
   display: inline;
+  margin: 15px;
+}
+
+.header-icon {
+  height: 1em;
+  width: 1em;
+  margin-right: 11px;
+  vertical-align: top;
+}
+
+.down-arrow {
+  margin-left: 6px;
+}
+
+#share {
+  color: #FFFFFF;
 }
 
 .PG-logo {
-  background-color: #FFFFFF;
-  height: 3em;
-  width: 3em;
+  height: auto;
+  width: 20%;
+  max-width: 5.8em;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 12px;
+  bottom: 12px;
   display: inline-block;
 }
 
 h2  {
   font-size: 2em;
   margin: 20px 1%;
+  color: #2B2B2B;
 }
 
 .article-list {
@@ -54,25 +75,27 @@ h2  {
 }
 
 article {
-/*  border: 1px black solid;*/
   width: 23%;
-  height: 350px;
+  height: 380px;
   margin: 1%;
   box-shadow: 2px 2px 5px grey;
   background-color: #FFFFFF;
+
 }
 
 .article-header {
-  height: 8em;
+  height: 10em;
   color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  opacity: 0.7;
 }
 
 .arrow-logo {
   height: 2em;
   width: 2em;
+  margin: .5em;
 }
 
 .views {
@@ -92,13 +115,13 @@ article {
   margin: 10px;
   font-size: .7em;
   word-wrap: break-word;
-  padding: 10px;
-
+  padding: 5%;
+  
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #2B2B2B;
 }
 
 .freestyle-skiing {
@@ -123,16 +146,19 @@ a {
 
 .card-name {
   font-size: 1em;
+  padding-top: 5px;
 }
 
 .card-date {
-  font-size: .5em;
+  font-size: .7em;
   color: #BCBDBF;
+  padding-top: .2em;
 }
 
 .reigning-champ {
   text-transform: uppercase;
   font-size: .8em;
+  padding-bottom: 3px;
 }
 
 .country {
@@ -142,10 +168,92 @@ a {
 
 .events {
   text-transform: uppercase;
-  font-size: .5em;
+  font-size: .8em;
 }
 
 .event-number {
   font-size: 2em;
   color: #6FC2F8;
+}
+
+@media screen and (max-width: 1030px) {
+  
+  .link-box {
+    height: 4em;
+  }
+
+  article {
+    height: 350px;
+  }
+
+  .article-header {
+  height: 8em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  menu {
+    left: 1%;
+    bottom: 20px;
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  article {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+    menu {
+    left: 1%;
+    bottom: 10px;
+    font-size: .8em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h2  {
+    font-size: 1.5em;
+    margin: 15px 1%;
+  }
+
+  article {
+    width: 48%;
+    min-width: 50px;
+  }
+
+  li {
+  display: block;
+  margin: 10px;
+}
+}
+
+@media screen and (max-width: 310px) {
+
+    article {
+    width: 95%;
+    min-width: 50px;
+  }
+
+  .PG-logo {
+    display: inline-block;
+    left: 4px;
+    top: 6px;
+    margin: 0;
+    min-width: 60px;
+}
+
+  aside {
+    font-size: .7em;
+  }
+
+}
+
+@media screen and (max-width: 207px) {
+  .PG-logo {
+    top: 26px;
+  }
 }
