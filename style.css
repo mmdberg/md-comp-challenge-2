@@ -80,7 +80,11 @@ article {
   margin: 1%;
   box-shadow: 2px 2px 5px grey;
   background-color: #FFFFFF;
+}
 
+article:hover {
+  background-color: #b7ecfc69;
+  border: black solid 1px;
 }
 
 .article-header {
@@ -167,7 +171,7 @@ a {
 
 .card-date {
   font-size: .7em;
-  color: #BCBDBF;
+  color: #2b2b2b96
   padding-top: .2em;
 }
 
