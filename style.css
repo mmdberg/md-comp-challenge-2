@@ -100,9 +100,14 @@ article {
 
 .views {
   position: absolute;
-  right: 0;
-  top: 0;
+  font-size: .5em;
+  right: 3px;
+  top: 3px;
   text-align: center;
+}
+
+.view-number {
+  font-size: 3em;
 }
 
 .article-footer {
@@ -116,7 +121,6 @@ article {
   font-size: .7em;
   word-wrap: break-word;
   padding: 5%;
-  
 }
 
 a {
@@ -142,6 +146,18 @@ a {
 
 .luge {
   background-image: url(Images/luge.jpg);
+}
+
+.bobsled {
+  background-image: url(Images/bobsled.jpg);
+}
+
+.ski-jumping {
+  background-image: url(Images/ski-jumping.jpg);
+}
+
+.biathlon {
+  background-image: url(Images/biathlon.jpg);
 }
 
 .card-name {
